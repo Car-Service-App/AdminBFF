@@ -1,0 +1,8 @@
+server:
+  port: 8083
+
+spring:
+  profiles:
+    active: @profileActive@
+  application:
+    name: AdminBFF
